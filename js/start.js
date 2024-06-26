@@ -19,7 +19,7 @@ function setResult(){
 
     var resultImg = document.createElement('img');
     const imgDiv = document.querySelector('#resultImg');
-    var imgURL = 'img/image-' + point + '.png';
+    var imgURL = 'img/image-' + point + '.ico';
     resultImg.src = imgURL;
     resultImg.alt = point;
     resultImg.classList.add('img-fluid');
